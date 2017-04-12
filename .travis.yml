@@ -9,5 +9,5 @@ script:
   - docker run --rm marq/boot2docker-nfs > boot2docker-nfs.iso
 
 after_script:
-  - docker images
+  - docker image ls
   - ls -l *.iso
