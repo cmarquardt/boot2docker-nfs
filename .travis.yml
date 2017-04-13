@@ -6,7 +6,8 @@ script:
   - docker build -t marq/boot2docker-nfs .
   - docker run --rm marq/boot2docker-nfs > boot2docker-nfs.iso
 after_script:
-  - docker image ls
+  - docker --version
+  - docker images
   - ls -l *.iso
 deploy:
   provider: releases
