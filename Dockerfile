@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------------
-# boot2docker-ngs - A modified boot2docker image
+# boot2docker-nfs - A modified boot2docker image
 # Copyright (C) 2017  Christian Marquardt
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +15,7 @@
 # limitations under the License.
 #--------------------------------------------------------------------------------
 
-FROM boot2docker/boot2docker
+FROM boot2docker/boot2docker:17.05.0-ce
 
 # Notes:
 # - ROOTFS is inherited from master container
