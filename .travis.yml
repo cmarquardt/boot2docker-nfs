@@ -9,10 +9,10 @@ after_script:
   - docker --version
   - docker images
   - ls -l *.iso
-  - sha512sum boot2docker.iso
-  - sha256sum boot2docker.iso
-  - sha1sum boot2docker.iso
-  - md5sum boot2docker.iso
+  - sha512sum boot2docker-nfs.iso
+  - sha256sum boot2docker-nfs.iso
+  - sha1sum boot2docker-nfs.iso
+  - md5sum boot2docker-nfs.iso
 deploy:
   provider: releases
   api_key:
