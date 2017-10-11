@@ -12,7 +12,7 @@ startup.
 
 ## Features
 
-* Kernel 4.4.66 with AUFS, Docker v17.05.0-ce - using libcontainer
+* Kernel 4.4.89 with AUFS, Docker v17.09.0-ce - using libcontainer
 * Container persistence via disk automount on `/var/lib/docker`
 * SSH keys persistence via disk automount
 * Support for NFS
