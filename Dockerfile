@@ -15,7 +15,7 @@
 # limitations under the License.
 #--------------------------------------------------------------------------------
 
-FROM boot2docker/boot2docker:17.09.0-ce
+FROM boot2docker/boot2docker:17.10.0-ce
 
 # Notes:
 # - ROOTFS is inherited from master container
